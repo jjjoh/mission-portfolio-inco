@@ -1,0 +1,478 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Atkinson Hyperlegible", "sans-serif";
+/* Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension. */
+    
+}
+
+body {
+    background-color: #153746;
+    color: #41d4d2;
+    font-size: 1rem;
+}
+
+footer p, h1, h2, h3 {
+    font-family: "Dongle", "sans-serif";
+    font-size: 2em;
+}
+
+
+footer p, header h1 {
+    color:#149dc2
+}
+
+
+header, footer p  {
+    background-color: #2a1c70;
+    padding: 1em;
+}
+
+
+/* élements de header */
+.titres h1 {
+    font-size: 2em;
+    /* background: red; */
+    max-height: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color:#9fe6fa;
+    /* background-color: #fff;  */
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    body {
+        padding: 10vw;
+        padding-top: 0vw;
+    }
+
+    button {
+        margin: calc(10px+10vw);
+    }
+}
+
+button {
+    padding: 6px;
+    margin: 10px;
+    background-color: #ea84a2;
+    max-width: 150px;
+}
+
+button a {
+ color:#2a1c70;
+ background-color: inherit;
+ padding: inherit;
+ margin: inherit;
+ font-size: 1.5rem;
+ font-family: "Dongle", "sans-serif";
+ text-decoration: none;
+}
+
+button:hover a {
+    color: #e6d8fa;
+}
+
+#boutons button:hover {
+    border-bottom-color: #2a1c70;
+}
+
+
+#boutons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+/* éléments de footer */
+footer p {
+    font-size: 2vw;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+/* éléments de Main */
+main h1 {
+    color:#41d4d2;
+    margin-top: 0.5em;
+    font-size: 2.5rem;   
+}
+
+/* éléments de mainNav */
+
+
+
+/* éléments spécifiques mesProjets.html */
+.projetsWeb h2 {
+    font-size: 2rem;
+    color: #fc967a;
+
+}
+
+
+
+
+
+main {
+    text-align: center;   
+    padding: 5% 0;
+    padding-top: 0%;
+    padding-bottom: 2%;
+
+}
+
+#mainNav {
+    background-color: #41d4d2;
+    padding: 1vw;
+    padding-left: 1em;
+    text-align: left;
+    color: #2a1c70;
+}
+
+/*.contenuPage {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1vw;
+    background-color: #17af6b;
+}
+*/
+.projectsNav {
+    background-color:#149dc2;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+
+}
+
+.projectsNav a {
+text-decoration: none;
+color: #2a1c70;
+}
+
+main h1{
+    text-align: center;
+  /*  background-color: white;*/
+}
+
+h3  {
+    color: #f2cd5e;
+    text-align: center;
+    font-size: large;
+    padding: 0%;
+    padding-bottom: 1vw;
+    margin: 2%;
+    margin-top: 4%;
+     /* background-color: #000;*/
+}
+
+img { 
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+}
+
+#imgAvecCredits {
+padding: 6px;
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+
+}
+
+p {
+    text-align: justify;
+    font-size: medium;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    /* background-color: blueviolet;*/
+}
+
+#txtImgAccueil {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+}
+
+
+ul {
+    text-align: left;
+    padding-left: 3em;
+    font-size: small;
+    
+}
+
+li {
+    margin: 0.5vw;
+}
+
+
+#missions {
+    display: flex;
+    justify-content: space-between;
+     /*background-color: red; */
+}
+
+.missionGIT {
+    position: relative;
+    text-align: center;
+    /* background-color:#ee3; */
+    padding: 0%;
+    margin: 1em;
+}
+
+   /*.txtCentrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+   */
+  /*span {
+ 
+ display: flex;
+    justify-content: space-evenly;
+
+}
+*/
+ /*span img {
+    width: 5%;
+    margin-left: 0.5em;
+    max-width: 100%;
+    max-height: 100%; 
+}
+*/
+#mur {
+    background-color: azure;
+    justify-content: flex-start;
+}
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:space-around ;
+    margin: 0 auto;
+    width: 65vw;
+    height: fit-content;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.bodyForm {
+    padding: 1em;
+    /*  background-color: #fff;*/
+
+ }
+
+.footerForm {
+    display: flex;
+    justify-content: center;
+} 
+
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+ }
+
+
+
+input, textarea {
+    background-color:#e6d8fa;
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 45vw;
+    min-height: 30px;
+    box-sizing: border-box;
+
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+    margin-bottom: 1vh;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+}
+   
+button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+     margin-left: .5em;
+     margin-top: 1em;
+}
+
+.formButton button:hover {
+    color: #999;
+    border-bottom-color: #000;
+}
+
+.formButton button {
+    color:#153746;
+    background-color: #41d4d2;
+}
+
+@media screen and (min-width: 650px) {
+    label {
+        /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+        display: flex;
+        width: 60vw;
+        justify-content:center;
+        padding: 0.5rem;
+        padding-left: 0rem;
+         /* background-color: #000;*/
+     }
+} 
+
+#pageContact h1 {
+    color: #e6d8fa;
+    padding: 1rem;
+    font-size: 4em;
+
+}
+
+#pageContact {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/*
+
+
+header h1, footer h1 {
+    
+}
+
+main {
+    text-align: center;   
+    padding: 5% 0;
+    padding-bottom: 0%;  
+}
+
+ #blueJ {
+    color: rgb(226, 43, 43);
+}
+
+#jNight {
+    color: rgb(255, 208, 0);
+}
+
+section {
+    background-color: rgb(11, 11, 110);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    padding: 1em;
+}
+
+
+main h1 {
+    color: black;    
+}
+
+main h1, main h2, main h3 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+
+main h3 {
+    font-size:  calc(medium + 8vw);
+}
+
+.txtImageAlbum img {
+    width: 40%;
+   max-width: 100%;
+   max-height: 100%;
+   min-width: 150px;          
+}
+
+
+
+span img {
+    width: 18%;
+    margin-left: 0.5em;
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.txtImageAlbum {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-bottom: 1em;    
+}
+
+.texteAlbum {
+    width: 75%;
+    text-align: left;
+    margin-right: 0.25em;  
+}
+
+@media screen AND (max-width: 600px) {
+    .txtImageAlbum {
+        display: flexbox;
+        flex-direction: column-reverse;
+        align-items: center;
+    } 
+    .texteAlbum {
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+        margin-right: 0em;
+    }
+    .texteAlbum p {
+        text-align: left;
+    }
+    section {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+}
+
+.texteAlbum p {
+    color: white;
+}
+
+
+*/
