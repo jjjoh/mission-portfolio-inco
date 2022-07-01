@@ -209,6 +209,15 @@ p {
     /* background-color: blueviolet;*/
 }
 
+p span {
+    font-weight: bold;
+    color: #f2cd5e;
+}
+
+#mainAPropos h1 {
+    color: #f2cd5e;
+}
+
 #txtImgAccueil {
     padding-left: 2em;
     padding-right: 2em;
@@ -227,6 +236,10 @@ li {
     margin: 0.5vw;
 }
 
+.projetsWeb h2 {
+    color: #f2cd5e;
+    margin-top: 1em;
+}
 
 #missions {
     display: flex;
