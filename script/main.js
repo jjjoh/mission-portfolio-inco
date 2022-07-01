@@ -31,8 +31,8 @@ function myButtonLink(selecteur, contenu, adresse) {
     button.appendChild(lien);
 }
 
-myButtonLink(".contactButton", "contact", "/contact.html" );
-myButtonLink(".cvButton", "cv", "/cvJohanneSchatz.pdf" );
+myButtonLink(".contactButton", "contact", "./contact.html" );
+myButtonLink(".cvButton", "cv", "./cvJohanneSchatz.pdf" );
 
 
 
@@ -43,7 +43,7 @@ const mainMenu = document.querySelector("nav");
 // Accueil
 const navAccueil = document.createElement("a");
 navAccueil.textContent = "Accueil";
-navAccueil.href = "index.html";
+navAccueil.href = "./index.html";
 mainMenu.appendChild(navAccueil);
 
 //navAccueil.classList.add("")
@@ -51,21 +51,15 @@ mainMenu.appendChild(navAccueil);
 // Qui je suis
 const navAPropos = document.createElement("a");
 navAPropos.textContent = "Qui je suis";
-navAPropos.href = "/aPropos.html";
+navAPropos.href = "./aPropos.html";
 mainMenu.appendChild(navAPropos);
 
 //Mes projets
 const navParcours = document.createElement("a");
 navParcours.textContent = "Mes projets";
-navParcours.href = "/mesProjets.html";
+navParcours.href = "./mesProjets.html";
 mainMenu.appendChild(navParcours);
 
-//Où je vais
-/*const navFutur = document.createElement("a");
-navFutur.textContent = "Où je vais";
-navFutur.href = "/mesAspirations.html";
-mainMenu.appendChild(navFutur);
-*/
 //Séparateur
 function separateur(parent) {
     const trait = document.createTextNode(' | ');
@@ -74,7 +68,6 @@ function separateur(parent) {
 
 separateur(navAPropos);
 separateur(navAccueil);
-//separateur(navParcours);
 
 //FOOTER
 creerElement( ".piedPage", "p", "Copyright 2022 @ Johanne Schatz - All rights reserved" );
