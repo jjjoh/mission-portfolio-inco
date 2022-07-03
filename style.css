@@ -7,6 +7,7 @@
 }
 
 body { 
+    background-color: #153746;
     color: #41d4d2;
     font-size: 1rem;
 }
@@ -108,7 +109,6 @@ footer {
 
 /* éléments de Main */
 main {
-    background-color: #153746;
     text-align: center;   
     padding: 5% 0;
     padding-top: 0%;
