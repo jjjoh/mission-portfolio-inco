@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
     font-family: "Atkinson Hyperlegible", "sans-serif";
-/* Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension. */
-    
+/* Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension. */    
 }
 
-body {
-    background-color: #153746;
+body { 
     color: #41d4d2;
     font-size: 1rem;
 }
@@ -18,14 +16,12 @@ footer p, h1, h2, h3 {
     font-size: 2em;
 }
 
-
 footer p, header h1 {
-    color:#149dc2
+    color:#1CC7F5
 }
 
-
 header, footer p  {
-    background-color: #2a1c70;
+    background-color: #2A1C70;
     padding: 1em;
 }
 
@@ -49,27 +45,10 @@ header h2 {
     /* background-color: #fff;  */
 }
 
-@media screen and (max-width: 700px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (min-width: 701px) {
-    body {
-        padding: 10vw;
-        padding-top: 0vw;
-    }
-
-    button {
-        margin: calc(10px+10vw);
-    }
-}
-
 button {
     padding: 6px;
     margin: 10px;
-    background-color: #ea84a2;
+    background-color: #FF8FB0;
     max-width: 150px;
 }
 
@@ -91,15 +70,10 @@ button:hover a {
     border-bottom-color: #2a1c70;
 }
 
-
 #boutons {
     display: flex;
     flex-direction: column;
-
 }
-
-
-
 
 /* éléments de footer */
 footer p {
@@ -112,93 +86,41 @@ footer {
     padding-bottom: 0%;
 }
 
+
+/* mise en page responsive */
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    body {
+        padding: 10vw;
+        padding-top: 0vw;
+    }
+
+    button {
+        margin: calc(10px+10vw);
+    }
+}
+
+
 /* éléments de Main */
-main h1 {
-    color:#41d4d2;
-    margin-top: 0.5em;
-    font-size: 2.5rem;   
-}
-
-/* éléments de mainNav */
-
-
-
-/* éléments spécifiques mesProjets.html */
-.projetsWeb h2 {
-    font-size: 2rem;
-    color: #fc967a;
-
-}
-
-
-
-
-
 main {
+    background-color: #153746;
     text-align: center;   
     padding: 5% 0;
     padding-top: 0%;
     padding-bottom: 2%;
-
 }
 
-#mainNav {
-    background-color: #41d4d2;
-    padding: 1vw;
-    padding-left: 1em;
-    text-align: left;
-    color: #2a1c70;
-}
 
-/*.contenuPage {
-    margin-left: 1vw;
-    margin-right: 1vw;
-    padding: 1vw;
-    background-color: #17af6b;
-}
-*/
-.projectsNav {
-    background-color:#149dc2;
-    padding: 1vw;
-    display: flex;
-    justify-content: center;
-    width: max-content;
-
-}
-
-.projectsNav a {
-text-decoration: none;
-color: #2a1c70;
-}
-
-main h1{
+main h1 {
+    color:#4BF0EE;
+    margin-top: 0.5em;
+    font-size: 2.5rem;   
     text-align: center;
-  /*  background-color: white;*/
-}
-
-h3  {
-    color: #f2cd5e;
-    text-align: center;
-    font-size: large;
-    padding: 0%;
-    padding-bottom: 1vw;
-    margin: 2%;
-    margin-top: 4%;
-     /* background-color: #000;*/
-}
-
-img { 
-    width: 100%;
-    max-width: 100%;
-    margin: 0%;
-}
-
-#imgAvecCredits {
-padding: 6px;
-display: flex;
-align-items: flex-end;
-flex-direction: column;
-
 }
 
 p {
@@ -214,8 +136,27 @@ p span {
     color: #f2cd5e;
 }
 
-#mainAPropos h1 {
-    color: #f2cd5e;
+img { 
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+}
+
+/* éléments de mainNav */
+#mainNav {
+    background-color: #41d4d2;
+    padding: 1vw;
+    padding-left: 1em;
+    text-align: left;
+    color: #2a1c70;
+}
+
+/* éléments spécifiques index.html */
+#imgAvecCredits {
+padding: 6px;
+display: flex;
+align-items: flex-end;
+flex-direction: column;
 }
 
 #txtImgAccueil {
@@ -224,16 +165,18 @@ p span {
     display: flex;
 }
 
-
-ul {
-    text-align: left;
-    padding-left: 3em;
-    font-size: small;
-    
+/* éléments spécifiques mesProjets.html */
+.projectsNav {
+    background-color:#1CC7F5;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    width: max-content;
 }
 
-li {
-    margin: 0.5vw;
+.projectsNav a {
+text-decoration: none;
+color: #2a1c70;
 }
 
 .projetsWeb h2 {
@@ -255,30 +198,25 @@ li {
     margin: 1em;
 }
 
-   /*.txtCentrer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-   */
-  /*span {
- 
- display: flex;
-    justify-content: space-evenly;
-
-}
-*/
- /*span img {
-    width: 5%;
-    margin-left: 0.5em;
-    max-width: 100%;
-    max-height: 100%; 
-}
-*/
+ /* page aPropros.html */
 #mur {
-    background-color: azure;
     justify-content: flex-start;
+}
+
+#mainAPropos h1 {
+    color: #f2cd5e;
+}
+
+ /* page contact.html */
+#pageContact h1 {
+    color: #e6d8fa;
+    padding: 1rem;
+    font-size: 4em;
+}
+
+#pageContact {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 form {
@@ -295,10 +233,9 @@ form {
     border: 1px solid #CCC;
     border-radius: 1em;
 }
+
 .bodyForm {
     padding: 1em;
-    /*  background-color: #fff;*/
-
  }
 
 .footerForm {
@@ -314,8 +251,6 @@ label {
     text-align: center;
     padding: 0.5rem;
  }
-
-
 
 input, textarea {
     background-color:#e6d8fa;
@@ -371,121 +306,7 @@ button {
         justify-content:center;
         padding: 0.5rem;
         padding-left: 0rem;
-         /* background-color: #000;*/
      }
 } 
 
-#pageContact h1 {
-    color: #e6d8fa;
-    padding: 1rem;
-    font-size: 4em;
 
-}
-
-#pageContact {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-/*
-
-
-header h1, footer h1 {
-    
-}
-
-main {
-    text-align: center;   
-    padding: 5% 0;
-    padding-bottom: 0%;  
-}
-
- #blueJ {
-    color: rgb(226, 43, 43);
-}
-
-#jNight {
-    color: rgb(255, 208, 0);
-}
-
-section {
-    background-color: rgb(11, 11, 110);
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-bottom: 7%;
-    margin-top: 7%;
-    padding: 1em;
-}
-
-
-main h1 {
-    color: black;    
-}
-
-main h1, main h2, main h3 {
-    text-transform: uppercase;
-    margin-bottom: 1em;
-}
-
-
-main h3 {
-    font-size:  calc(medium + 8vw);
-}
-
-.txtImageAlbum img {
-    width: 40%;
-   max-width: 100%;
-   max-height: 100%;
-   min-width: 150px;          
-}
-
-
-
-span img {
-    width: 18%;
-    margin-left: 0.5em;
-    max-width: 100%;
-    max-height: 100%; 
-}
-
-.txtImageAlbum {
-    display: inline-flex;
-    align-items: flex-start;
-    margin-bottom: 1em;    
-}
-
-.texteAlbum {
-    width: 75%;
-    text-align: left;
-    margin-right: 0.25em;  
-}
-
-@media screen AND (max-width: 600px) {
-    .txtImageAlbum {
-        display: flexbox;
-        flex-direction: column-reverse;
-        align-items: center;
-    } 
-    .texteAlbum {
-        width: 100%;
-        text-align: center;
-        margin-top: 1em;
-        margin-right: 0em;
-    }
-    .texteAlbum p {
-        text-align: left;
-    }
-    section {
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-}
-
-.texteAlbum p {
-    color: white;
-}
-
-
-*/
