@@ -32,7 +32,7 @@ function myButtonLink(selecteur, contenu, adresse) {
 }
 
 myButtonLink(".contactButton", "contact", "./contact.html" );
-myButtonLink(".cvButton", "cv", "./cvJohanneSchatz.pdf" );
+myButtonLink(".cvButton", "cv", "./cvJohanneSCHATZ_11-08-2022.pdf" );
 
 
 
